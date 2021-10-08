@@ -25,7 +25,6 @@ public class Tamagotchi {
 
         if (input.equals("1")){
             tamagotchi = new Dog(name, ageOfTamagotchi, energyOgTamagotchi, moodOgTamagotchi);
-            System.out.println(tamagotchi);
             tamagotchiType = " dog";
             System.out.println(name + " is " + ageOfTamagotchi + " years old and" + moodOgTamagotchi + tamagotchiType + " and the energy is " + energyOgTamagotchi);
             return tamagotchi;
